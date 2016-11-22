@@ -4,6 +4,12 @@ Use [http-mocker][http-mocker] in Dart tests.
 
 ## Usage
 
+The interceptor script from HTTP Mocker should be loaded for this to work:
+
+```html
+<script src="http://localhost:18000/_script.js"></script>
+```
+
 A simple usage example:
 
 ```dart
